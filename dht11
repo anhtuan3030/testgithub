@@ -1,11 +1,5 @@
 // test github
-#include "stm32f10x.h"                  // Device header
-#include "stm32f10x_gpio.h"             // Keil::Device:StdPeriph Drivers:GPIO
-#include "stm32f10x_rcc.h"              // Keil::Device:StdPeriph Drivers:RCC
-#include "dht11.h"
-#include "delay.h"
-#include "lcd1602.h"
-#include "stdio.h"
+
 
 unsigned int nut = 0, nut_doi;
 int button(GPIO_TypeDef *GPIO, uint16_t Pin)
